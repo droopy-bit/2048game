@@ -1,1 +1,1 @@
-   - [DEMO LINK](https://<droopy-bit>.github.io/2048game/)
+   - [DEMO LINK](https://droopy-bit.github.io/2048game/)
