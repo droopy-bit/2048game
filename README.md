@@ -11,17 +11,12 @@ Deployed on GitHub Pages: [https://droopy-bit.github.io/2048game/](https://droop
 ## Technologies Used
 
 **Core**
-- React 18
-- TypeScript
-- SCSS / CSS Modules
-
-**Tooling**
-- Vite — build tool and dev server
-- ESLint & Prettier — linting and code formatting
+- HTML5
+- SCSS / CSS
+- JavaScript (ES6+, ES modules)
 
 **Deployment**
-- gh-pages — deployment to GitHub Pages
-
+- GitHub Pages
 ## Getting Started
 
 Follow these steps to set up the project locally.
