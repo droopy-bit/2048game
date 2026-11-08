@@ -1,53 +1,65 @@
-2048 Game — Modern Web Implementation
-A sleek, responsive, and fully functional implementation of the classic 2048 puzzle game built using modern web technologies. Players merge tiles with matching numbers by sliding them in four directions to achieve the target score of 2048 and beyond.
+# 2048 Game
 
-Live Preview
-- Live Demo (https://droopy-bit.github.io/2048game/)
+A responsive web version of the classic 2048 puzzle game built with React and TypeScript. Slide tiles on a 4×4 grid, merge matching numbers and try to reach the 2048 tile.
 
-Note: Make sure to test the link in Incognito Mode to verify functionality without browser caching issues.
+## Live Preview
 
-Design Reference
-Original Game Concept: 2048 by Gabriele Cirulli
+[![Live Demo](https://img.shields.io/badge/🎮_Play_Now-Open_Game-edc22e?style=for-the-badge)](https://droopy-bit.github.io/2048game/)
 
-Technologies Used
-Core
-React (v18.x) — UI Component Library
+Deployed on GitHub Pages: [https://droopy-bit.github.io/2048game/](https://droopy-bit.github.io/2048game/)
 
-TypeScript (v5.x) — Type Safety and Static Analysis
+## Technologies Used
 
-SCSS / CSS Modules — Modular and Maintainable Styling
+**Core**
+- React 18
+- TypeScript
+- SCSS / CSS Modules
 
-Development & Deployment
-Vite (v5.x) — Lightning-fast Build Tool & Dev Server
+**Tooling**
+- Vite — build tool and dev server
+- ESLint & Prettier — linting and code formatting
 
-ESLint / Prettier — Code Quality and Formatting
+**Deployment**
+- gh-pages — deployment to GitHub Pages
 
-GitHub Pages — Hosting and Automated Deployment (gh-pages)
+## Getting Started
 
-Getting Started
-Follow these instructions to set up and run the project locally on your machine.
+Follow these steps to set up the project locally.
 
-1. Clone the repository:
-Bash
-git clone https://github.com/droopy-bit/2048-game.git
-cd 2048-game
-2. Install dependencies:
-Bash
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/droopy-bit/2048game.git
+cd 2048game
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
-3. Run the project locally:
-Bash
-npm run dev
-Open http://localhost:5173 in your browser to view the app.
+```
 
-Features
-Smooth Tile Animations: Fluid sliding, spawning, and merging transitions.
+### 3. Run the project locally
 
-Touch & Keyboard Controls: Full support for arrow keys (and WASD) on desktop, as well as swipe gestures on mobile devices.
+```bash
+npm start
+```
 
-Score & Best Score Tracking: Real-time current score calculation with persistent high score saved via localStorage.
+The game will be available at the address shown in your terminal.
 
-Game Over & Victory States: Clear notifications when no valid moves remain or when the 2048 tile is achieved, with an option to continue playing.
+## How to Play
 
-Restart / Reset Button: Instantly start a new game at any time.
+- Use the **arrow keys** or **WASD** to slide all tiles in one direction
+- On mobile, **swipe** in the direction you want to move
+- When two tiles with the same number touch, they **merge** into one
+- Reach the **2048** tile to win
+- The game ends when no moves are left
 
-Fully Responsive Design: Optimized layout for smartphones, tablets, and desktop displays.
+## Features
+
+- **Classic gameplay** — 4×4 grid with tile sliding and merging
+- **Score tracking** — the score grows with every merge
+- **Best score** — saved in `localStorage`, so it survives page reloads
+- **Smooth animations** — sliding, spawning and merging of tiles
+- **Keyboard and touch controls** — arrow keys, WASD and swipe gestures
+- **Responsive design** — works on any screen size
